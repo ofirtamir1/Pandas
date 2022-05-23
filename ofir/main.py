@@ -26,3 +26,5 @@ df8 = df.loc[(df['age'] == 9) | (df['age'] == 25) | (df['age'] == 16) |
 (df['age'] == 36) | (df['age'] == 36) | (df['age'] == 49)]
 #ex 8
 df8 = df
+df8 =df.loc[(df['gender'] == 'F') | (df['name'] == 'Tal')]
+print(df8['name'].count())
