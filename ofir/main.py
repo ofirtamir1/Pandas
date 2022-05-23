@@ -15,6 +15,6 @@ df5 =df2.groupby('gender')
 df6 =df.loc[(df['age'] >20)]
 #df7
 df7 =df.loc[(df['age'] > 35) | (df['age'] <17)]
-print(df7[['age']])
+(df7[['age']])
 
 
