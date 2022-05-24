@@ -11,3 +11,15 @@ df3 = df.merge (df_animals , left_on= 'name' , right_on = 'Name')
 #ex4
 df4= df.merge (df_animals , left_on= 'name' , right_on = 'Name', how= 'left')
 #print(df4)
+#ex5
+df5= df3['name'].unique()
+#print(df5)
+#ex6
+df6= df3.loc[df3['name']=='Ido']
+df6=df6['Owner_ID']
+#print(df6)
+#ex7
+df7= df3.loc[df3['age']>20]
+df7=df7['name']
+#print(df7)
+#ex8
