@@ -55,3 +55,8 @@ def16groupby = df15.groupby('gender')
 df17=df
 df17 =df.loc[(df['name'] == 'Ido') | (df['name'] == 'Shani')]
 def17groupby = df17.groupby('name')
+#ex18
+df18= df
+df18 = df.loc[(df['age'] >= 20) & (df['age'] <= 30)]
+#df19
+df19 = df
