@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70e45068-e6fe-4f11-84c2-19a82eed4d12" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ofir/pandassql.py" beforeDir="false" afterPath="$PROJECT_DIR$/ofir/pandassql.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
